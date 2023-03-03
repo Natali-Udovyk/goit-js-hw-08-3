@@ -26,4 +26,4 @@ function makeGalleryMarkup(galleryItems) {
         .join('');
 };
 
-new SimpleLightbox('.gallery a', { /* options */ });
+new SimpleLightbox('.gallery a');
